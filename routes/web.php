@@ -11,10 +11,10 @@
 |
 */
 
-Auth::routes();
-
 Route::get('/','PostController@home_page')->name('home_page');
 
+Auth::routes();
+//admin
 Route::prefix('admin')->group(function () {
   Route::get('/', 'AdminController@index')->name('admin.dashboard');
   Route::get('dashboard', 'AdminController@index')->name('admin.dashboard');
