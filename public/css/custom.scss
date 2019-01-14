@@ -1,0 +1,21 @@
+$theme-colors: (
+  "primary": #20c997,
+  "danger": #ff606b,
+);
+
+footer.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;}
+
+$teal:    #20c997 !default;
+$black:    #000 !default;
+$navbar-light-color:                rgba($black, .5) !default;
+$navbar-light-hover-color:          rgba($teal, .7) !default;
+$navbar-light-active-color:         rgba($teal, .9) !default;
+$navbar-light-disabled-color:       rgba($teal, .3) !default;
+$navbar-light-toggler-icon-bg:      str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23") !default;
+$navbar-light-toggler-border-color: rgba($teal, .1) !default;
+$border-radius: 0rem;
+@import "node_modules/bootstrap/scss/bootstrap";
